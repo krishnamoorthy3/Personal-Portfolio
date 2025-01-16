@@ -1,0 +1,60 @@
+import { Link, NavLink } from "react-router-dom"
+import logo from "../assets/images/logo.png"
+import "./Navbar.css"
+import { useEffect } from "react"
+import { useState } from "react"
+import { ImCross } from "react-icons/im";
+const NavBar = () => {
+    const [mobileWidth, setMobileWidth] = useState(true);
+
+    useEffect(() => {
+        const handleMobToggle = () => {
+            setMobileWidth(window.innerWidth >= 768);
+        };
+        // Execute on mount
+        handleMobToggle();
+        // Add resize event listener
+        window.addEventListener("resize", handleMobToggle);
+
+        // Cleanup event listener on unmount
+        return () => {
+            window.removeEventListener("resize", handleMobToggle);
+        };
+    }, []);
+
+    return <>
+        <div>
+            <nav className="nav-wrapper">
+                <div className="container">
+                    <div className="nav-inner">
+                        <div className="nav-logo-wrap">
+                            <Link to="/"><img src={logo} alt="logo" /></Link>
+                        </div>
+                        {!mobileWidth&&<div className="nav-btn-mob">
+                            <button onClick={()=>setMobileWidth(true)}>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>}
+                        <ul className={`nav-link-wrapper ${mobileWidth?"mob-tra-ani":""}`}>
+                            <li className="nav-item nav-mob-close">
+                                <Link to="/" className="nav-link">
+                                    <img src={logo} alt="logo"/>
+                                </Link>
+                                <button className="nav-close-btn" onClick={()=>setMobileWidth(false)}>
+                                    <ImCross/>
+                                </button> 
+                            </li>
+                            <li className="nav-item"><NavLink to="/" className="nav-link">Home</NavLink></li>
+                            <li className="nav-item"><NavLink to="/About" className="nav-link">About</NavLink></li>
+                            <li className="nav-item"><NavLink to="/Projects" className="nav-link">Projects</NavLink></li>
+                            <li className="nav-item"><NavLink to="/Contact" className="nav-link">Contact</NavLink></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </>
+}
+
+export default NavBar
