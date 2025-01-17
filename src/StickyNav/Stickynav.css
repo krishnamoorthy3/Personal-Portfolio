@@ -1,0 +1,397 @@
+
+.sticky-nav-item a{
+    display: flex;
+}
+.center-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px ;
+    width: 60px;
+    background: #fff;
+    border-radius: 100%;
+    box-shadow: 0px -1px 11px 1px rgba(0, 0, 0, 0.8), 0px 0px 0px rgb(38 37 48);
+}
+.sticky-nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px ;
+    width: 40px;
+    background: #fff;
+    border-radius: 100%;
+    box-shadow: 0px -1px 11px 1px rgba(0, 0, 0, 0.8), 0px 0px 0px rgb(38 37 48);
+}
+.sticky-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    height: 150px;
+    width:  150px;
+}
+.sticky-btn{
+    border: none;
+    background: none;
+
+}
+.sticky-nav-item{
+    position: absolute;
+}
+.sticky-nav-item-1{
+    top: -7%;
+    right: 35%;
+    transform: translate(-7%,-35%);
+}
+.sticky-nav-item-2{
+    left: -7%;
+    top: 10%;
+    transform: translate(-10%,7%);
+}
+.sticky-nav-item-3{
+    bottom: 12%;
+    left: -6%;
+    transform: translate(-12%,6%);
+}
+.sticky-nav-item-4{
+    bottom: -23%;
+    right: 35%;
+    transform: translate(-7%,-35%);
+}
+.sticky-f-wrap{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0%;
+}
+
+.sticky-nav-item-1{
+    animation:facebookani .3s  ease-in-out ;
+}
+@keyframes facebookani {
+    0% {
+        top: auto;
+        bottom: -23%;
+        right: 35%;
+        transform: translate(-7%,-35%);
+        z-index: 5;
+    }
+    5%{
+        top: auto;
+        bottom: -20%;
+        right: 42%;
+        transform: translate(-7%, -35%);
+        z-index: 5;
+    }
+    10% {
+        top: auto;
+        bottom: -23%;
+        right: 58%;
+        transform: translate(21%, -60%);
+        z-index: 5;
+    }
+    15%{
+        top: auto;
+        bottom: -19%;
+        right: 65%;
+        transform: translate(21%, -60%);
+        z-index: 5;
+    }
+    20%{
+        top: auto;
+        bottom: -17%;
+        right: 72%;
+        transform: translate(9%, -75%);
+        z-index: 5;
+    }
+    25%{
+        top: auto;
+        bottom: -12%;
+        right: 79%;
+        transform: translate(9%, -75%);
+        z-index: 5;
+    }
+    30%{
+        top: auto;
+        bottom: -7%;
+        right: 82%;
+        transform: translate(3%, -76%);
+        z-index: 5;
+    }
+    35%{
+        top: auto;
+        bottom: 1%;
+        right: 86%;
+        transform: translate(3%, -76%);
+        z-index: 5;
+    }
+    40%{
+        top: auto;
+        bottom: 6%;
+        right: 85%;
+        transform: translate(-8%, -85%);
+        z-index: 5;
+    }
+    45%{
+        top: auto;
+        bottom: 13%;
+        right: 85%;
+        transform: translate(-8%, -85%);
+        z-index: 5;
+    }
+    50% {
+        top: auto;
+        bottom: 21%;
+        right: 85%;
+        transform: translate(-8%, -85%);
+        z-index: 5;
+    }
+    55%{
+        top: auto;
+        bottom: 28%;
+        right: 84%;
+        transform: translate(-8%, -85%);
+        z-index: 5;
+    }
+    60% {
+        top: auto;
+        bottom: 35%;
+        right: 81%;
+        transform: translate(-8%, -85%);
+        z-index: 5;
+    }
+    65%{
+        top: auto;
+        bottom: 41%;
+        right: 78%;
+        transform: translate(-8%, -85%);
+        z-index: 5;
+    }
+    70% {
+        top: auto;
+        bottom: 47%;
+        right: 75%;
+        transform: translate(-8%, -85%);
+        z-index: 5;
+    }
+    75%{
+        top: auto;
+        bottom: 51%;
+        right: 70%;
+        transform: translate(-8%, -85%);
+        z-index: 5;
+    }
+    80%{
+        top: auto;
+        bottom: 55%;
+        right: 64%;
+        transform: translate(-8%, -85%);
+        z-index: 5;
+    }
+    85%{
+        top: auto;
+        bottom: 59%;
+        right: 57%;
+        transform: translate(-8%, -85%);
+        z-index: 5;
+    }
+    90%{
+        top: auto;
+        bottom: 62%;
+        right: 50%;
+        transform: translate(-8%, -85%);
+        z-index: 5;
+    }
+    95%{
+        top: auto;
+        bottom: 64%;
+        right: 43%;
+        transform: translate(-8%, -85%);
+        z-index: 5;
+    }
+    100% {
+        top: -7%;
+        right: 35%;
+        transform: translate(-7%,-35%);
+        z-index: 5;
+    } 
+}
+.sticky-nav-item-2{
+    animation:instagramani .3s  ease-in-out ;
+}
+@keyframes instagramani {
+    
+0%{
+    top: auto;
+    bottom: -23%;
+    right: 35%;
+    transform: translate(-7%,-35%);
+    z-index: 4;
+}
+5%{
+    top: auto;
+    bottom: -21%;
+    right: 40%;
+    transform: translate(-7%, -35%);
+    z-index: 4;
+}
+10%{
+    top: auto;
+    bottom: -27%;
+    right: 52%;
+    transform: translate(21%, -60%);
+    z-index: 4;
+}
+15%{
+    top: auto;
+    bottom: -24%;
+    right: 58%;
+    transform: translate(21%, -60%);
+    z-index: 4;
+}
+20%{
+    top: auto;
+    bottom: -26%;
+    right: 61%;
+    transform: translate(9%, -75%);
+    z-index: 4;
+}
+25%{
+    top: auto;
+    bottom: -23%;
+    right: 67%;
+    transform: translate(9%, -75%);
+    z-index: 4;
+}
+30%{
+    top: auto;
+    bottom: -19%;
+    right: 71%;
+    transform: translate(3%, -76%);
+    z-index: 4;
+}
+35%{
+    top: auto;
+    bottom: -14%;
+    right: 78%;
+    transform: translate(3%, -76%);
+    z-index: 4;
+}
+40%{
+    top: auto;
+    bottom: -13%;
+    right: 81%;
+    transform: translate(-8%, -85%);
+    z-index: 4;
+}
+45%{
+    top: auto;
+    bottom: -9%;
+    right: 84%;
+    transform: translate(-8%, -85%);
+    z-index: 4;
+}
+50%{
+    top: auto;
+    bottom: -5%;
+    right: 86%;
+    transform: translate(-8%, -85%);
+    z-index: 4;
+}
+55%{
+    top: auto;
+    bottom: 1%;
+    right: 87%;
+    transform: translate(-8%, -85%);
+    z-index: 4;
+}
+60%{
+    top: auto;
+    bottom: 7%;
+    right: 88%;
+    transform: translate(-8%, -85%);
+    z-index: 4;
+}
+
+70%{
+    top: auto;
+    bottom: 13%;
+    right: 88%;
+    transform: translate(-8%, -85%);
+    z-index: 4;
+}
+
+80%{
+    left: -22px;
+    top: 30%;
+    transform: translate(-10%, 7%);
+    z-index: 4;
+}
+85%{
+    left: -20px;
+    top: 23%;
+    transform: translate(-10%, 7%);
+    z-index: 1
+}
+
+90%{
+    left: -17px;
+    top: 17%;
+    transform: translate(-10%, 7%);
+    z-index: 4;
+}
+95%{
+    left: -15px;
+    top: 13%;
+    transform: translate(-10%, 7%);
+    z-index: 4;
+}
+
+100%{
+    left: -7%;
+    top: 10%;
+    transform: translate(-10%,7%);
+    z-index: 4;
+}
+}
+
+.sticky-nav-item-2{
+    animation:instagramani .3s  ease-in-out ;
+}
+.sticky-nav-item-3{
+    animation:WHATSAPP .1s  ease-in-out ;
+}
+@keyframes WHATSAPP{
+    0%{
+        bottom: -23%;
+        right: 35%;
+        transform: translate(-7%, -35%);
+        z-index: 3;
+    }
+    25%{
+        bottom: -22%;
+        right: 49%;
+        transform: translate(-7%, -35%);
+        z-index: 3;
+    }
+    50%{
+        bottom: -15%;
+        right: 64%;
+        transform: translate(-7%, -35%);
+        z-index: 3;
+    }
+    75%{
+        bottom: -8%;
+        right: 73%;
+        transform: translate(-7%, -35%);
+        z-index: 3;
+    }
+    100%{
+        bottom: 12%;
+        left: -6%;
+        transform: translate(-12%, 6%);
+        z-index: 3;
+    }
+}
+

@@ -1,0 +1,116 @@
+.sec-1-wrapper{
+    background-color: #f3f0ea;
+    background-color: rgb(255 233 217/1);
+    padding: 192px 0;
+    position: relative;
+}
+.banner-bg-pos{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 90%;
+    max-width: initial;
+}
+.home-b-ht{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+.home-b-ht span{
+    width: 50px;
+    height: 2px;
+    background: #000;
+    border-radius: 15px;
+}
+.home-banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 67px;
+}
+.home-banner-p{
+    font-size: 28px;
+    margin: 15px 0 20px;
+    color: #3d3d3d;
+    font-weight: 700;
+}
+.home-banner-btn-wrap{
+    display: flex;
+    gap: 10px;
+    margin:  10px 0 30px;
+}
+.home-banner-cnt-wrap{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 50px 0 10px;
+}
+.home-banner-ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+.home-banner-ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 22px;
+}
+.home-banner-h-num{
+    font-size: 16px;
+    color: #434343;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #858585;
+}
+.home-banner-h-num span{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.home-sec-2-wrapper{
+    padding: 80px 0;
+}
+
+
+.home-port-sec-wrapper{
+    padding: 90px 0;
+    background-color: rgb(255 233 217/1);
+}
+.home-port-se{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 18px;
+    align-items: center;
+    gap: 15px;
+}
+.home-port-se span{
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 0px 10px;
+    font-size: 14px;
+}
+.home-port-lc{
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    align-items: center;
+}
+.home-port-inner{
+    padding: 15px;
+}
+.btn-port-home{
+    font-size: 16px !important;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center ;
+}

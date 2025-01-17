@@ -1,0 +1,48 @@
+.btn-primary{
+    border: 1px solid #000;
+    background: #000;
+    color: #ffffff !important;
+    border-radius: 15px;
+    padding: 10px 26px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.btn-secoundary{
+    border: 1px solid #000;
+    background: transparent;
+    color: #000000 !important;
+    border-radius: 15px;
+    padding: 10px 26px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.btn-primary i,
+.btn-primary svg{
+    color: #ffffff !important;
+    fill: #fff  !important;
+}
+.btn-secoundary i,
+.btn-secoundary svg{
+    color: #000000 !important;
+    fill: #000000;
+}
+
+.home-title-h{
+    color: #ab5429;
+    font-size: 20px;
+    font-weight: 700;
+}
+.home-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.pro-overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #00000054;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}

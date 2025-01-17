@@ -4,6 +4,9 @@ import About from "./Pages/About/About"
 import Contact from "./Pages/Contact/Contact"
 import Projects from "./Pages/Projects/Projects"
 import NavBar from "./Navbar/NavBar";
+import Footer from "./Footer/Footer"
+import StickyNav from "./StickyNav/StickyNav"
+import "./App.css"
 const App = () => {
   return (
     <>
@@ -16,8 +19,9 @@ const App = () => {
             <Route path="/Contact" element={<Contact/>} />
             <Route path="/Projects" element={<Projects/>} />
           </Routes>
-
       </main>
+      <Footer/>
+      <StickyNav/>
     </>
   )
 }
