@@ -1,0 +1,52 @@
+.about-sect-1-wrap{
+    padding: 100px 0;
+}
+.about-pad-right{
+    padding-left:10%;
+}
+.abt-d-role{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 15px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.abt-p-content{
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: #5e5e5e;
+}
+.abt-sec-2-wrap{
+    padding: 50px 0 100px;
+    background: rgba(8, 8, 8, 0.04);
+}
+
+.exp-abt-wrap{
+    margin: 40px 0;
+    background: rgba(8, 8, 8, 0.04);
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+.exp-abt-date{
+    margin: 0 0 30px;
+    color: #5c5c5c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.exp-abt-title{
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    margin: 0 0 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+.exp-abt-title svg{
+    font-size: 12px;
+}
+.exp-abt-de{
+    font-weight: 600;
+    font-size: 20px;
+}
