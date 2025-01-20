@@ -27,6 +27,9 @@
     padding: 20px 30px;
     border-radius: 15px;
 }
+.exp-abt-wrap .exp-abt-de img{
+    width: 50px;
+}
 .exp-abt-date{
     margin: 0 0 30px;
     color: #5c5c5c;
