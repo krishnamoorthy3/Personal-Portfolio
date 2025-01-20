@@ -8,8 +8,13 @@
     font-weight: 700;
     text-decoration: none;
     padding: 40px 0 30px;
-    border-bottom: 1px solid #000;
-    
+    border-bottom: 1px solid #83838396;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.contact-a-d span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 .contact-a-d svg{
     font-size: 25px
@@ -57,4 +62,37 @@
 .contact-sub-btn svg{
     color: #fff;
     fill: #fff;
+}
+
+.error-msg-contact{
+    font-size: 12px ;
+    font-weight: 600;
+    color: #b60707;
+}
+
+@media only screen and (max-width:767px){
+    .cont-pad-right{
+        padding-right: 15px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .cont-pad-right{
+        padding-right: 15px;
+    }
+    .home-title-h {
+        font-size: 16px;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .contact-a-d {
+        font-size: 14px;
+        gap: 16px;
+    }
+    .contact-a-d svg {
+        font-size: 16px;
+    }
+    .home-title {
+        font-size: 35px;
+    }
 }

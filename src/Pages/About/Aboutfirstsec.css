@@ -1,0 +1,18 @@
+.about-sect-1-wrap{
+    padding: 100px 0;
+}
+.about-pad-right{
+    padding-left:10%;
+}
+.abt-d-role{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 15px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.abt-p-content{
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: #5e5e5e;
+}

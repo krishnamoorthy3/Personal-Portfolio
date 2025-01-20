@@ -2,10 +2,18 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 import bannerbg from "../../assets/images/hero.png"
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
-import interior_p_thumb from "../../assets/images/interior-p-thumb.png"
-import e_com from "../../assets/images/e-comm-p-thumb.png"
+
+import Aboutfirstsec from "../About/Aboutfirstsec.jsx"
+import Skills from "../About/Skills.jsx"
+
 import "./Home.css"
-const Home = () => {
+
+import PropTypes from "prop-types"; 
+import { Link } from "react-router-dom";
+
+const Home = ({projectDetail}) => {
+    const projectitem=projectDetail.slice(0,2)
+    
     return (
         <>
             <section className="sec-1-wrapper">
@@ -30,74 +38,45 @@ const Home = () => {
                                 </ul>
                         </div>
                     </div>
-                    <div>
+                    <div className="home-p-d">
                         <img src={bannerbg} className="banner-bg-pos" alt="" />
                     </div>
                 </div>
                 
             </section>
-            <section className="home-sec-2-wrapper">
+            <Aboutfirstsec/>
+            <section>
                 <div className="container">
-                    <h2 className="home-title-h">Services</h2>
-                    <h2 className="home-title">My specialties</h2>
-
-                    <div className="row">
-                        <div className="col-md-8">
-                            <div className="row">
-                                <div className="col-md-4 col-12">
-                                    <div>
-
-                                    </div>
-                                </div>
-                                <div className="col-md-4 col-12">
-
-                                </div>
-                                <div className="col-md-4 col-12">
-
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4">
-
-                        </div>
-                    </div>
+                    <Skills/>
                 </div>
-
             </section>
-
             <section className="home-port-sec-wrapper">
                 <div className="container">
                     <h2 className="home-title-h text-center">Portfolio</h2>
                     <h2 className="home-title text-center">My recent work</h2>
 
-                    <div className="row mt-5">
-                        <div className="col-md-6 col-12">
-                            <div className="home-port-inner">
-                                <img src={interior_p_thumb} alt="" className="w-100" />
+                    <div className="row mt-5 row-gap-5">
+                        {projectitem.map((item,index)=>
+                            <div className="col-md-6 col-12" key={index}>
+                                <div className="home-port-inner">
+                                    <img src={item.imgsrc} alt={item.title} className="w-100" />
 
-                                <div className="home-port-se">
-                                    <span>React</span>
-                                    <span>Development</span>
+                                    <div className="home-port-se">
+                                        {item.usedtech.map((data,index)=>
+                                            <span key={index}>{data}</span>
+                                        )}
+                                    </div>
+                                    <Link to={item.liveurl} target="_blank" className="home-port-lc">{item.title}<MdOutlineArrowOutward/></Link>
                                 </div>
-                                <a href="#" className="home-port-lc">Basinik Finance App <MdOutlineArrowOutward/></a>
                             </div>
-                        </div>
-                        <div className="col-md-6 col-12">
-                            <div className="home-port-inner">
-                                <img src={e_com} alt=""  className="w-100"/>
 
-                                <div className="home-port-se">
-                                    <span>React</span>
-                                    <span>Development</span>
-                                </div>
-                                <a href="#" className="home-port-lc">Basinik Finance App <MdOutlineArrowOutward/></a>
-                            </div>
-                        </div>
+                        )}
+                        
                         <div className="col-12 my-4">
-                            <button className="btn-primary btn-port-home py-3 w-100 ">
+                            <Link to="/Projects" target="_blank" className="btn-primary btn-port-home py-3 w-100 text-decoration-none">
                                 View All Project
                                 <MdOutlineArrowOutward/>
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -105,5 +84,7 @@ const Home = () => {
         </>
     )
 }
-
+Home.propTypes={
+    projectDetail:PropTypes.array
+}
 export default Home

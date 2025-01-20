@@ -50,3 +50,27 @@
     fill: #fff;
     font-size:26px;
 }
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .project-d-t{
+        font-size: 10px;
+    }
+    .project-d-t i, .project-d-t svg {
+        font-size: 14px;
+    }
+    .project-inner-wrapper .project-d-content{
+        bottom: 0;
+        background: #000000e6;
+        border-bottom-right-radius: 9px;
+        border-bottom-left-radius: 9px;
+    }
+}
+@media only screen and (max-width:767px){
+    .project-inner-wrapper .project-d-content{
+        bottom: 0;
+        background: #000000e6;
+    }
+    .project-d-t{
+        font-size: 16px;
+    }
+}

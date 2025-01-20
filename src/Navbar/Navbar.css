@@ -67,6 +67,7 @@
         right: -100%;
         align-items: start;
         transition: .5s;
+        z-index: 1;
     }
     .mob-tra-ani{
         right: 0%;

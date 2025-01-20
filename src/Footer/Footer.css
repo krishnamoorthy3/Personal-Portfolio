@@ -43,3 +43,19 @@
     margin: 80px 0 0;
     padding: 24px 0 0;
 }
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .footer-th{
+        font-size: 33px;
+    }
+    .footer-wrap .footer-t{
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+    .footer-wrap .footer-l{
+        font-size: 13px;
+    }
+    .footer-cp{
+        font-size: 13px;
+    }
+}

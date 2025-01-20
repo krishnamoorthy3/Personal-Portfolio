@@ -5,7 +5,7 @@ const Footer = () => {
         <>
             <footer className="footer-wrapper">
                 <div className="container">
-                    <div className="row">
+                    <div className="row row-gap-5">
                         <div className="col-md-4">
                             <h6 className="footer-th">Let’s work together</h6>
                         </div>

@@ -50,3 +50,34 @@
     font-weight: 600;
     font-size: 20px;
 }
+
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .about-sect-1-wrap {
+        padding: 32px 0;
+    }
+    .exp-abt-wrap {
+        padding: 20px 16px;
+    }
+    .exp-abt-de {
+        font-size: 17px;
+    }
+    .exp-abt-title {
+        font-size: 16px;
+    }
+    .exp-abt-date{
+        font-size: 13px;
+    }
+    .abt-p-content{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .about-pad-right {
+        padding-left: 15px;
+    }
+    .about-sect-1-wrap{
+        padding: 17px 0;
+    }
+}
