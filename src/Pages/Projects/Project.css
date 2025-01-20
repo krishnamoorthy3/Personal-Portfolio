@@ -1,5 +1,5 @@
 .project-sec-1{
-    padding: 50px 0;
+    padding: 120px 0 50px;
 }
 
 
@@ -64,6 +64,9 @@
         border-bottom-right-radius: 9px;
         border-bottom-left-radius: 9px;
     }
+    .project-sec-1 {
+        padding: 138px 0 50px;
+    }
 }
 @media only screen and (max-width:767px){
     .project-inner-wrapper .project-d-content{
@@ -72,5 +75,8 @@
     }
     .project-d-t{
         font-size: 16px;
+    }
+    .project-sec-1 {
+        padding: 130px 0 50px;
     }
 }

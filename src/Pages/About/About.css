@@ -54,7 +54,7 @@
 
 @media only screen and (min-width:768px) and (max-width:1024px){
     .about-sect-1-wrap {
-        padding: 32px 0;
+        padding: 125px 0 40px;
     }
     .exp-abt-wrap {
         padding: 20px 16px;
@@ -78,6 +78,6 @@
         padding-left: 15px;
     }
     .about-sect-1-wrap{
-        padding: 17px 0;
+        padding: 109px 0 20px;
     }
 }

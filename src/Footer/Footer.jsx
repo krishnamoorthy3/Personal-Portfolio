@@ -1,5 +1,6 @@
 import { MdOutlineArrowOutward } from "react-icons/md";
 import "./Footer.css"
+import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <>
@@ -11,14 +12,14 @@ const Footer = () => {
                         </div>
                         <div className="col-md-4">
                             <div className="footer-wrap">
-                                <h5 className="footer-t">Looking for a hectic designer?</h5>
-                                <a href="#" className="footer-l">hello@henry.com <MdOutlineArrowOutward/></a>
+                                <h5 className="footer-t">Looking for a Developer?</h5>
+                                <Link to="/Contact" target="_blank" className="footer-l">hello@henry.com <MdOutlineArrowOutward/></Link>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="footer-wrap">
-                                <h5 className="footer-t">Looking for a hectic designer?</h5>
-                                <a href="#" className="footer-l">hello@henry.com <MdOutlineArrowOutward/></a>
+                                <h5 className="footer-t">See My Works</h5>
+                                <Link to="/Projects" target="_blank" className="footer-l">Projects <MdOutlineArrowOutward/></Link>
                             </div>
                         </div>
                     </div>

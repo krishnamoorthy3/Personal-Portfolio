@@ -1,5 +1,5 @@
 .cont-sec-wrapper{
-    padding: 80px 0 100px;
+    padding: 170px 0 100px;
 }
 .contact-a-d{
     display: flex;
@@ -27,16 +27,21 @@
 }
 .form-input{
     width: 100%;
-    border: 1px solid #ababab;
-    padding: 7px 10px;
+    border: 1px solid #cdcdcd;
+    padding: 9px 10px;
     border-radius: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
     font-size: 16px;
+}
+.form-input::placeholder,
+.form-textarea::placeholder{
+    font-size: 14px;
+}
+.form-input:focus-visible{
 }
 .form-textarea{
     width: 100%;
-    border: 1px solid #ababab;
+    border: 1px solid #cdcdcd;
     padding: 7px 10px;
     border-radius: 5px;
     resize: none;

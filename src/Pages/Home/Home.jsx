@@ -24,8 +24,8 @@ const Home = ({projectDetail}) => {
                         <h1 className="home-banner-title">Henry</h1>
                         <p className="home-banner-p">Product Designer | Based in Germany</p>
                         <div className="home-banner-btn-wrap">
-                            <button className="btn-primary">Let&apos;s Talk <MdOutlineArrowOutward/></button>
-                            <button className="btn-secoundary">My Work <MdOutlineArrowOutward/></button>
+                            <Link to="/Contact" target="_blank" className="btn-primary">Let&apos;s Talk <MdOutlineArrowOutward/></Link>
+                            <Link to="/Projects" target="_blank" className="btn-secoundary">My Work <MdOutlineArrowOutward/></Link>
                         </div>
                         <div className="home-banner-cnt-wrap">
                                 <h5 className="home-banner-h-num"><span>1.2k+</span>

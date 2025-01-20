@@ -6,25 +6,32 @@ import { useState } from "react"
 import { ImCross } from "react-icons/im";
 const NavBar = () => {
     const [mobileWidth, setMobileWidth] = useState(true);
-
+    const [scrollHeight,setScrollHeight]=useState(false);
     useEffect(() => {
         const handleMobToggle = () => {
             setMobileWidth(window.innerWidth >= 768);
         };
         // Execute on mount
         handleMobToggle();
+
+        const handelScroll=()=>{
+            setScrollHeight(window.scrollY >=100 );
+            
+        }
+        handelScroll()
         // Add resize event listener
         window.addEventListener("resize", handleMobToggle);
+        window.addEventListener("scroll",handelScroll)
 
         // Cleanup event listener on unmount
         return () => {
             window.removeEventListener("resize", handleMobToggle);
         };
     }, []);
-
+    
     return <>
         <div>
-            <nav className="nav-wrapper">
+            <nav className={`nav-wrapper ${scrollHeight && "nav-wrap-bg-f"}`}>
                 <div className="container">
                     <div className="nav-inner">
                         <div className="nav-logo-wrap">
