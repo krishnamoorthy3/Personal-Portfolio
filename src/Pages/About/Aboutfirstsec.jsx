@@ -1,5 +1,6 @@
 
-import Aboutimg from "../../assets/images/about2.png"
+
+import aboutimg from "../../assets/images/232.gif"
 import "./Aboutfirstsec.css"
 const Aboutfirstsec = () => {
     return (
@@ -9,7 +10,7 @@ const Aboutfirstsec = () => {
                 <div className="container">
                     <div className="row align-items-center row-gap-5">
                         <div className="col-md-5">
-                            <img src={Aboutimg} alt="" className="w-100" />
+                            <img src={aboutimg} alt="" className="w-100" />
                         </div>
                         <div className="col-md-7 about-pad-right">
                             <h2 className="home-title-h">About Me</h2>

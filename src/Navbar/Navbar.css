@@ -21,6 +21,8 @@
     width: 100%;
     left: 0;
     z-index: 1;
+    /* background-color: rgb(16 18 27 / 48%);
+    backdrop-filter: blur(10px); */
 }
 
 .nav-btn-mob button {
@@ -108,6 +110,7 @@
 
 .nav-wrapper{
     position: fixed;
+    z-index: 4;
 }
 
 .nav-wrap-bg-f{

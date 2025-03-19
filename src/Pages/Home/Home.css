@@ -1,6 +1,5 @@
 .sec-1-wrapper{
-    background-color: #f3f0ea;
-    background-color: rgb(255 233 217/1);
+    background-color: #fff;
     padding: 192px 0;
     position: relative;
 }
@@ -129,9 +128,6 @@
     .home-port-lc{
         font-size: 20px;
     }
-    .home-p-d{
-        display: none;
-    }
     .sec-1-wrapper{
         padding: 120px 0 83px;
     }
@@ -174,3 +170,6 @@
         padding: 125px 0 65px;
     }
 }
+
+
+
