@@ -83,11 +83,11 @@ const Contact = () => {
 
     const contactdata=[
         {
-            title:"hello@henry.com",
+            title:"krishnamoorthym3009@gmail.com",
             icon:<IoMail/>,
         },
         {
-            title:"+1 234 567 890",
+            title:"+91-93847-00729",
             icon:<MdCall/>,
         },
         {

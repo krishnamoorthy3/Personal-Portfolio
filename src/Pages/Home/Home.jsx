@@ -2,7 +2,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 import bannerbg from "../../assets/images/hero.png"
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
-
+import { MdEmail } from "react-icons/md";
 import Aboutfirstsec from "../About/Aboutfirstsec.jsx"
 import Skills from "../About/Skills.jsx"
 
@@ -20,21 +20,20 @@ const Home = ({projectDetail}) => {
                 <div className="container">
                     <div>
                         <p className="home-b-ht"><span></span> Hello, I’m </p>
-                        <h1 className="home-banner-title">Mark</h1>
-                        <h1 className="home-banner-title">Henry</h1>
-                        <p className="home-banner-p">Product Designer | Based in Germany</p>
+                        <h1 className="home-banner-title">Krishna</h1>
+                        <h1 className="home-banner-title">Moorthy</h1>
+                        <p className="home-banner-p">Frontend Developer | React Developer</p>
                         <div className="home-banner-btn-wrap">
                             <Link to="/Contact" target="_blank" className="btn-primary">Let&apos;s Talk <MdOutlineArrowOutward/></Link>
                             <Link to="/Projects" target="_blank" className="btn-secoundary">My Work <MdOutlineArrowOutward/></Link>
                         </div>
                         <div className="home-banner-cnt-wrap">
-                                <h5 className="home-banner-h-num"><span>1.2k+</span>
-                                Worldwide client</h5>
+                                {/* <h5 className="home-banner-h-num"><span>1.2k+</span>
+                                Worldwide client</h5> */}
                                 <ul className="home-banner-ul">
-                                    <li><a href=""><CiLinkedin/></a></li>
-                                    <li><a href=""><FaGithub/></a></li>
-                                    <li><a href="">Be</a></li>
-                                    <li><a href="">Be</a></li>
+                                    <li><Link to="https://www.linkedin.com/in/krishna-moorthy-m-b089142a4/" target="_blank"><CiLinkedin/></Link></li>
+                                    <li><Link to="https://github.com/krishnamoorthy3" target="_blank"><FaGithub/></Link></li>
+                                    <li><Link to="mailto:krishnamoorthym3009@gmail.com" target="_blank"><MdEmail/></Link></li>
                                 </ul>
                         </div>
                     </div>
