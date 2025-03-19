@@ -3,6 +3,15 @@ import Aboutfirstsec from "./Aboutfirstsec";
 import Skills from "./Skills"
 import "./About.css"
 const About = () => {
+
+    const education=[
+        {
+            start:"2020",
+            ending:"2023",
+            place:"Rathinam College of Arts and Science",
+            role:"B.Sc (Computer Science)"
+        },
+    ]
     return (
         <>
             <Aboutfirstsec/>
@@ -22,11 +31,14 @@ const About = () => {
                         </div>
                         <div className="col-md-6 col-12">
                             <h2 className="home-title-h">Education</h2>
-                            <div className="exp-abt-wrap">
-                                <p className="exp-abt-date">03/216 – Running</p>
-                                <h5 className="exp-abt-title"><GoDotFill/>Axtra</h5>
-                                <h4 className="exp-abt-de">Lead digital marketer</h4>
-                            </div>
+                            {education.map((data,index)=>
+                                <div className="exp-abt-wrap" key={index}>
+                                    <p className="exp-abt-date">{data.start} – {data.ending}</p>
+                                    <h5 className="exp-abt-title"><GoDotFill/>{data.place}</h5>
+                                    <h4 className="exp-abt-de">{data.role}</h4>
+                                </div>
+                            )}
+                            
                         </div>
                     </div>
                     <Skills/>
