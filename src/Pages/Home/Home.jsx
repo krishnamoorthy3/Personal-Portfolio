@@ -19,13 +19,13 @@ const Home = ({ projectDetail }) => {
         <>
             <section className="sec-1-wrapper">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-lg-7">
+                    <div className="row align-items-center">
+                        <div className="col-lg-7 col-md-6">
                             <div className="sec-1-home">
                                 <p className="home-b-ht"><span></span> Hello, I’m </p>
                                 <h1 className="home-banner-title">Krishna</h1>
                                 <h1 className="home-banner-title">Moorthy</h1>
-                                <p className="home-banner-p">Frontend Developer | React Developer</p>
+                                <p className="home-banner-p">Software Developer | React Developer</p>
                                 <div className="home-banner-btn-wrap">
                                     <Link to="/Contact" target="_blank" className="btn-primary">Let&apos;s Talk <MdOutlineArrowOutward /></Link>
                                     <Link to="/Projects" target="_blank" className="btn-secoundary">My Work <MdOutlineArrowOutward /></Link>
@@ -41,7 +41,7 @@ const Home = ({ projectDetail }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-5">
+                        <div className="col-lg-5  col-md-6 hom-banner-img">
                             <img src={homebannerimg} width="100%" alt="" />
                         </div>
                     </div>

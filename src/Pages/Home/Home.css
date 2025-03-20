@@ -146,6 +146,9 @@
         top: 22%;
         transform: translateY(-22%);
     }
+    .hom-banner-img{
+        display: none;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:1024px){
     .home-port-sec-wrapper {

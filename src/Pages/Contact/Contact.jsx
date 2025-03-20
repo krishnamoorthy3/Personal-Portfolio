@@ -8,7 +8,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import { useRef, useState } from "react";
-
+import { Link } from "react-router-dom";
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -85,14 +85,17 @@ const Contact = () => {
         {
             title:"krishnamoorthym3009@gmail.com",
             icon:<IoMail/>,
+            link:"mailto:krishnamoorthym3009@gmail.com"
         },
         {
             title:"+91-93847-00729",
             icon:<MdCall/>,
+            link:"tel:9384700729"
         },
         {
             title:"India",
             icon:<FaLocationDot/>,
+            link:"#"
         },
     ]   
 
@@ -106,10 +109,10 @@ const Contact = () => {
                             <h3 className="home-title">Let’s <br />
                                 connect</h3>
                             {contactdata.map((item,index)=>(
-                                <h2 className="contact-a-d" key={index}>
+                                <Link to={item.link} className="contact-a-d" key={index}>
                                     {item.icon}
                                     <span>{item.title}</span>
-                                </h2>
+                                </Link>
                             ))}
                         </div>
                         <div className="col-lg-6 col-md-7 col-12">

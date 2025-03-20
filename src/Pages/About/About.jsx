@@ -12,6 +12,14 @@ const About = () => {
             role:"B.Sc (Computer Science)"
         },
     ]
+    const experience=[
+        {
+            start:"2024",
+            ending:"Present",
+            place:"Renaissance technologies",
+            role:"Web Designer & UI Developer"
+        }
+    ]
     return (
         <>
             <Aboutfirstsec/>
@@ -23,11 +31,13 @@ const About = () => {
                     <div className="row">
                         <div className="col-md-6 col-12">
                             <h2 className="home-title-h">Experience</h2>
-                            <div className="exp-abt-wrap">
-                                <p className="exp-abt-date">03/216 – Running</p>
-                                <h5 className="exp-abt-title"><GoDotFill/>Axtra</h5>
-                                <h4 className="exp-abt-de">Lead digital marketer</h4>
-                            </div>
+                            {experience.map((data,index)=>
+                                <div className="exp-abt-wrap" key={index}>
+                                    <p className="exp-abt-date">{data.start} – {data.ending}</p>
+                                    <h5 className="exp-abt-title"><GoDotFill/>{data.place}</h5>
+                                    <h4 className="exp-abt-de">{data.role}</h4>
+                                </div>
+                            )}
                         </div>
                         <div className="col-md-6 col-12">
                             <h2 className="home-title-h">Education</h2>
