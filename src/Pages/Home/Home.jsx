@@ -27,16 +27,16 @@ const Home = ({ projectDetail }) => {
                                 <h1 className="home-banner-title">Moorthy</h1>
                                 <p className="home-banner-p">Software Developer | React Developer</p>
                                 <div className="home-banner-btn-wrap">
-                                    <Link to="/Contact" target="_blank" className="btn-primary">Let&apos;s Talk <MdOutlineArrowOutward /></Link>
-                                    <Link to="/Projects" target="_blank" className="btn-secoundary">My Work <MdOutlineArrowOutward /></Link>
+                                    <Link to="/Contact"  className="btn-primary">Let&apos;s Talk <MdOutlineArrowOutward /></Link>
+                                    <Link to="/Projects"  className="btn-secoundary">My Work <MdOutlineArrowOutward /></Link>
                                 </div>
                                 <div className="home-banner-cnt-wrap">
                                     {/* <h5 className="home-banner-h-num"><span>1.2k+</span>
                                 Worldwide client</h5> */}
                                     <ul className="home-banner-ul">
-                                        <li><Link to="https://www.linkedin.com/in/krishna-moorthy-m-b089142a4/" target="_blank"><CiLinkedin /></Link></li>
-                                        <li><Link to="https://github.com/krishnamoorthy3" target="_blank"><FaGithub /></Link></li>
-                                        <li><Link to="mailto:krishnamoorthym3009@gmail.com" target="_blank"><MdEmail /></Link></li>
+                                        <li><Link to="https://www.linkedin.com/in/krishna-moorthy-m-b089142a4/" target="_blank" ><CiLinkedin /></Link></li>
+                                        <li><Link to="https://github.com/krishnamoorthy3" target="_blank" ><FaGithub /></Link></li>
+                                        <li><Link to="mailto:krishnamoorthym3009@gmail.com" ><MdEmail /></Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -70,14 +70,14 @@ const Home = ({ projectDetail }) => {
                                             <span key={index}>{data}</span>
                                         )}
                                     </div>
-                                    <Link to={item.liveurl} target="_blank" className="home-port-lc">{item.title}<MdOutlineArrowOutward /></Link>
+                                    <Link to={item.liveurl}  className="home-port-lc">{item.title}<MdOutlineArrowOutward /></Link>
                                 </div>
                             </div>
 
                         )}
 
                         <div className="col-12 my-4">
-                            <Link to="/Projects" target="_blank" className="btn-primary btn-port-home py-3 w-100 text-decoration-none">
+                            <Link to="/Projects"  className="btn-primary btn-port-home py-3 w-100 text-decoration-none">
                                 View All Project
                                 <MdOutlineArrowOutward />
                             </Link>
