@@ -4,6 +4,11 @@ import git from "../../assets/images/github.png";
 import social from "../../assets/images/social.png";
 import ps from "../../assets/images/photoshop.png";
 import nodejs from "../../assets/images/nodejs.png";
+import html from "../../assets/images/html.png";
+import css from "../../assets/images/css.png";
+import bootstrap from "../../assets/images/bootstrap.svg";
+import redux from "../../assets/images/redux.svg";
+
 import "./About.css"
 
 
@@ -14,7 +19,11 @@ const Skills = () => {
         git,
         social,
         ps,
-        nodejs
+        nodejs,
+        html,
+        css,
+        bootstrap,
+        redux
     ]
     return (
         <>

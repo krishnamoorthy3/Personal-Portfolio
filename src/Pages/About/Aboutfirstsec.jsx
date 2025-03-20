@@ -16,8 +16,8 @@ const Aboutfirstsec = () => {
                             <h2 className="home-title-h">About Me</h2>
                             <h2 className="home-title">Krishna Moorthy</h2>
                             <p className="abt-d-role">Software Developer</p>
-                            <p className="abt-p-content">A Web Designer & Developer and I am in the game for over 1.3 years. I am proud of my works and ready to face the next challenge</p>
-                            <p className="abt-p-content">That is where I come in. A lover of words, a wrangler of copy. Here to create copy that not only reflects who you are and what you stand for, but words that truly land with those that read them, calling your audience in and making them .</p>
+                            <p className="abt-p-content">I am a web designer and developer with 1.6 years of experience in building responsive and user-friendly websites using HTML, CSS, and JavaScript. My expertise lies in developing interactive web applications.</p>
+                            <p className="abt-p-content">Along the way, I picked up React and Redux through outsourcing projects, which helped me dive deeper into building dynamic web applications. I&apos;m always eager to learn new tech and improve my skills to stay ahead in the ever-evolving world of web development.</p>
                         </div>
                     </div>
                 </div>
