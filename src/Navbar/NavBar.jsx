@@ -28,7 +28,12 @@ const NavBar = () => {
             window.removeEventListener("resize", handleMobToggle);
         };
     }, []);
-    
+    const handelmobClose=()=>{
+        if(window.innerWidth < 768){
+            setMobileWidth(false)
+        }
+        
+    }
     return <>
         <div>
             <nav className={`nav-wrapper ${scrollHeight && "nav-wrap-bg-f"}`}>
@@ -52,10 +57,10 @@ const NavBar = () => {
                                     <ImCross/>
                                 </button> 
                             </li>
-                            <li className="nav-item"><NavLink to="/" className="nav-link">Home</NavLink></li>
-                            <li className="nav-item"><NavLink to="/About" className="nav-link">About</NavLink></li>
-                            <li className="nav-item"><NavLink to="/Projects" className="nav-link">Projects</NavLink></li>
-                            <li className="nav-item"><NavLink to="/Contact" className="nav-link">Contact</NavLink></li>
+                            <li className="nav-item"><NavLink to="/" onClick={handelmobClose} className="nav-link">Home</NavLink></li>
+                            <li className="nav-item"><NavLink to="/About" onClick={handelmobClose} className="nav-link">About</NavLink></li>
+                            <li className="nav-item"><NavLink to="/Projects"onClick={handelmobClose} className="nav-link">Projects</NavLink></li>
+                            <li className="nav-item"><NavLink to="/Contact" onClick={handelmobClose} className="nav-link">Contact</NavLink></li>
                         </ul>
                     </div>
                 </div>
