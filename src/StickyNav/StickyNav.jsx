@@ -36,7 +36,7 @@ const StickyNav = () => {
                         <Link to="mailto:krishnamoorthym3009@gmail.com" target="_blank"><img src={mail} width="20px"/></Link>
                     </div>
                     <div className="sticky-nav-item sticky-nav-item-4">
-                        <Link to="/Projects" target="_blank"><img src={project} width="20px"/></Link>
+                        <Link to="/Projects"><img src={project} width="20px"/></Link>
                     </div>
                 </div>}
             </div>
