@@ -37,7 +37,7 @@ const NavBar = () => {
     return <>
         <div>
             <nav className={`nav-wrapper ${scrollHeight && "nav-wrap-bg-f"}`}>
-                <div className="container">
+                <div className="container-fluid">
                     <div className="nav-inner">
                         <div className="nav-logo-wrap">
                             <Link to="/"><img src={logo} alt="logo" /></Link>

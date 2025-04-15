@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <>
             <footer className="footer-wrapper">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row row-gap-5">
                         <div className="col-md-4">
                             <h6 className="footer-th">Let’s work together</h6>

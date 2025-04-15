@@ -5,7 +5,10 @@ import "./Project.css"
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import PropTypes from "prop-types";
-const Projects = ({projectDetail}) => {
+import { AppContext } from "../../context/AppContext.jsx";
+import { useContext } from "react";
+const Projects = () => {
+    const {projectDetail}=useContext(AppContext)
     const [projectpopup,setProjectpopup] = useState(false)
     
     const [proDetailitem,setProDetailitem]=useState({})
@@ -19,7 +22,7 @@ const Projects = ({projectDetail}) => {
     return (
         <>
             <section className="project-sec-1">
-                <div className="container">
+                <div className="container-fluid">
                     <h2 className="home-title-h text-center">Portfolio</h2>
                     <h2 className="home-title text-center">My recent work</h2>
                     <div className="row my-5 py-5 row-gap-4">

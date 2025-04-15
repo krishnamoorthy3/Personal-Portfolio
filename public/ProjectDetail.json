@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "title": "Interior Design Website",
+        "discription": "A modern and elegant portfolio website for an interior design business, developed using HTML, CSS, JavaScript, Bootstrap, and jQuery. This website delivers a sleek and professional user experience with a focus on minimalist aesthetics, smooth interactions, and responsiveness.",
+        "usedtech": [
+            "react",
+            "react",
+            "react"
+        ],
+        "giturl": "https://github.com/krishnamoorthy3/Interior-Design-Website",
+        "liveurl": "https://interior-design-k.netlify.app/",
+        "imgsrc": "./assets/images/works/interior/interior-design.png",
+        "prothumb": "./assets/images/works/interior/interior-design-thumb.png",
+        "colt": "col-md-5"
+    },
+    {
+        "id": 2,
+        "title": "Innovat2",
+        "discription": "Minimalism combined with elements of french typography and brutalism helped us to realize the site exactly as we imagined with the client at the beginning: visually restrained, but stylish. Informative and pleasant to use, with an elegant aftertaste of a serious financial institution. Combined with elements of french typography and visually restrained, but stylish. Informative and pleasant to use, with an elegant aftertaste of a serious financial institutional client, and close collaboration.",
+        "usedtech": [
+            "react",
+            "react",
+            "react"
+        ],
+        "giturl": "https://github.com/krishnamoorthy3/Interior-Design-Website",
+        "liveurl": "https://interior-design-k.netlify.app/",
+        "imgsrc": "./assets/images/works/interior/interior-design.png",
+        "prothumb": "./assets/images/works/interior/interior-design-thumb.png",
+        "colt": "col-md-7"
+    },
+    {
+        "id": 3,
+        "title": "Innovat3",
+        "discription": "Minimalism combined with elements of french typography and brutalism helped us to realize the site exactly as we imagined with the client at the beginning: visually restrained, but stylish. Informative and pleasant to use, with an elegant aftertaste of a serious financial institution. Combined with elements of french typography and visually restrained, but stylish. Informative and pleasant to use, with an elegant aftertaste of a serious financial institutional client, and close collaboration.",
+        "usedtech": [
+            "react",
+            "react",
+            "react"
+        ],
+        "giturl": "https://github.com/krishnamoorthy3/Interior-Design-Website",
+        "liveurl": "https://interior-design-k.netlify.app/",
+        "imgsrc": "./assets/images/works/interior/interior-design.png",
+        "prothumb": "./assets/images/works/interior/interior-design-thumb.png",
+        "colt": "col-md-4"
+    },
+    {
+        "id": 4,
+        "title": "Innovat4",
+        "discription": "Minimalism combined with elements of french typography and brutalism helped us to realize the site exactly as we imagined with the client at the beginning: visually restrained, but stylish. Informative and pleasant to use, with an elegant aftertaste of a serious financial institution. Combined with elements of french typography and visually restrained, but stylish. Informative and pleasant to use, with an elegant aftertaste of a serious financial institutional client, and close collaboration.",
+        "usedtech": [
+            "react",
+            "react",
+            "react"
+        ],
+        "giturl": "https://github.com/krishnamoorthy3/Interior-Design-Website",
+        "liveurl": "https://interior-design-k.netlify.app/",
+        "imgsrc": "./assets/images/works/interior/interior-design.png",
+        "prothumb": "./assets/images/works/interior/interior-design-thumb.png",
+        "colt": "col-md-4"
+    },
+    {
+        "id": 5,
+        "title": "Innovat5",
+        "discription": "Minimalism combined with elements of french typography and brutalism helped us to realize the site exactly as we imagined with the client at the beginning: visually restrained, but stylish. Informative and pleasant to use, with an elegant aftertaste of a serious financial institution. Combined with elements of french typography and visually restrained, but stylish. Informative and pleasant to use, with an elegant aftertaste of a serious financial institutional client, and close collaboration.",
+        "usedtech": [
+            "react",
+            "react",
+            "react"
+        ],
+        "giturl": "https://github.com/krishnamoorthy3/Interior-Design-Website",
+        "liveurl": "https://interior-design-k.netlify.app/",
+        "imgsrc": "./assets/images/works/interior/interior-design.png",
+        "prothumb": "./assets/images/works/interior/interior-design-thumb.png",
+        "colt": "col-md-4"
+    }
+]

@@ -7,7 +7,7 @@ const Aboutfirstsec = () => {
         <>  
 
             <section className="about-sect-1-wrap">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row align-items-center row-gap-5">
                         <div className="col-md-5">
                             <img src={aboutimg} alt="" className="w-100" />

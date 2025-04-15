@@ -27,7 +27,7 @@ const About = () => {
 
             </section>
             <section className="abt-sec-2-wrap">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-6 col-12">
                             <h2 className="home-title-h">Experience</h2>

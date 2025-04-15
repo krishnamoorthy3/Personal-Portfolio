@@ -102,7 +102,7 @@ const Contact = () => {
     return (
         <><ToastContainer position="top-center" autoClose={2000}  />
             <section className="cont-sec-wrapper">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row row-gap-5">
                         <div className="col-lg-6 col-md-5 col-12 cont-pad-right">
                             <h2 className="home-title-h">Contact</h2>

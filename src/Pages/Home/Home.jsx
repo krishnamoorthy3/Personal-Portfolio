@@ -11,14 +11,16 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 import homebannerimg from "../../assets/images/1.png"
-
-const Home = ({ projectDetail }) => {
+import { AppContext } from "../../context/AppContext.jsx";
+import { useContext } from "react";
+const Home = () => {
+    const {projectDetail}=useContext(AppContext)
     const projectitem = projectDetail.slice(0, 2)
 
     return (
         <>
             <section className="sec-1-wrapper">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row align-items-center">
                         <div className="col-lg-7 col-md-6">
                             <div className="sec-1-home">
@@ -50,12 +52,12 @@ const Home = ({ projectDetail }) => {
             </section>
             <Aboutfirstsec />
             <section>
-                <div className="container">
+                <div className="container-fluid">
                     <Skills />
                 </div>
             </section>
             <section className="home-port-sec-wrapper">
-                <div className="container">
+                <div className="container-fluid">
                     <h2 className="home-title-h text-center">Portfolio</h2>
                     <h2 className="home-title text-center">My recent work</h2>
 
