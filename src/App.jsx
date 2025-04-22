@@ -7,7 +7,7 @@ import NavBar from "./Navbar/NavBar";
 import Footer from "./Footer/Footer"
 import StickyNav from "./StickyNav/StickyNav"
 
-import Data from "./Compo/Data"
+
 
 
 
@@ -17,19 +17,18 @@ const App = () => {
 
   return (
     <>
-      {/* <NavBar/> */}
+      <NavBar/>
 
       <main>
           <Routes>
 
-            <Route path="/" element={<Data />} />
-            {/* <Route path="/" element={<Home />} /> */}
+            <Route path="/" element={<Home />} />
             <Route path="/About" element={<About/>} />
             <Route path="/Contact" element={<Contact/>} />
             <Route path="/Projects" element={<Projects/>} />
           </Routes>
       </main>
-      {/* <Footer/> */}
+      <Footer/>
       <StickyNav/>
     </>
   )

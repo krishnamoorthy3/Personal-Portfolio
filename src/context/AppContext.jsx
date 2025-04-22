@@ -19,6 +19,7 @@ export const AppContextProvider = ({children}) => {
             console.error("Error:",err)
         }
     }
+
     return (
         <>  
             <AppContext.Provider value={{projectDetail}}>
