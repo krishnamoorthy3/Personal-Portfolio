@@ -65,7 +65,7 @@ const Home = () => {
                         {projectitem.map((item, index) =>
                             <div className="col-md-6 col-12" key={index}>
                                 <div className="home-port-inner">
-                                    <img src={item.imgsrc} alt={item.title} className="w-100" />
+                                    <img src={item.prothumb} alt={item.title} className="w-100" />
 
                                     <div className="home-port-se">
                                         {item.usedtech.map((data, index) =>

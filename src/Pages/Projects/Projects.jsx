@@ -25,14 +25,14 @@ const Projects = () => {
                 <div className="container-fluid">
                     <h2 className="home-title-h text-center">Portfolio</h2>
                     <h2 className="home-title text-center">My recent work</h2>
-                    <div className="row my-5 py-5 row-gap-4">
+                    <div className="row my-5 py-5 row-gap-5">
                         {
                             projectDetail.map(item=>(
-                                <div className={`${item.colt} col-12`} key={item.id}>
+                                <div className={`col-md-6 col-12`} key={item.id}>
                                     <div className="project-inner-wrapper">
                                         <img src={item.prothumb} alt="" className="w-100" />
                                         <div className="project-d-content">
-                                            <Link to="" className="project-d-t" onClick={()=>handelProjectDetail(item.id)}>Project Detail <MdOutlineArrowOutward/></Link>
+                                            <Link  className="project-d-t" onClick={()=>handelProjectDetail(item.id)}>Project Detail <MdOutlineArrowOutward/></Link>
                                             <Link to={item.liveurl} target="_blank" className="project-d-t">Live Demo <FaEye/></Link>
                                         </div>
                                     </div>
