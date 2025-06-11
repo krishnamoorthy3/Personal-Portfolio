@@ -6,7 +6,6 @@ import "./ProjectDetail.css"
 import { Link } from "react-router-dom";
 
 const ProjectDetail = ({ setProjectpopup, proDetailitem }) => {
-    console.log(proDetailitem);
     
     return (
         <>
