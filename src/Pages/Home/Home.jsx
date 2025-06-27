@@ -29,8 +29,8 @@ const Home = () => {
                                 <h1 className="home-banner-title">Moorthy</h1>
                                 <p className="home-banner-p">Software Developer | React Developer</p>
                                 <div className="home-banner-btn-wrap">
-                                    <Link to="/Contact"  className="btn-primary">Let&apos;s Talk <MdOutlineArrowOutward /></Link>
-                                    <Link to="/Projects"  className="btn-secoundary">My Work <MdOutlineArrowOutward /></Link>
+                                    <Link to="/contact"  className="btn-primary">Let&apos;s Talk <MdOutlineArrowOutward /></Link>
+                                    <Link to="/projects"  className="btn-secoundary">My Work <MdOutlineArrowOutward /></Link>
                                 </div>
                                 <div className="home-banner-cnt-wrap">
                                     {/* <h5 className="home-banner-h-num"><span>1.2k+</span>
@@ -79,7 +79,7 @@ const Home = () => {
                         )}
 
                         <div className="col-12 my-4">
-                            <Link to="/Projects"  className="btn-primary btn-port-home py-3 w-100 text-decoration-none">
+                            <Link to="/projects"  className="btn-primary btn-port-home py-3 w-100 text-decoration-none">
                                 View All Project
                                 <MdOutlineArrowOutward />
                             </Link>

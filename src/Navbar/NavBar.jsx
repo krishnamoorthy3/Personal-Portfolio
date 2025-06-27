@@ -58,9 +58,9 @@ const NavBar = () => {
                                 </button> 
                             </li>
                             <li className="nav-item"><NavLink to="/" onClick={handelmobClose} className="nav-link">Home</NavLink></li>
-                            <li className="nav-item"><NavLink to="/About" onClick={handelmobClose} className="nav-link">About</NavLink></li>
-                            <li className="nav-item"><NavLink to="/Projects"onClick={handelmobClose} className="nav-link">Projects</NavLink></li>
-                            <li className="nav-item"><NavLink to="/Contact" onClick={handelmobClose} className="nav-link">Contact</NavLink></li>
+                            <li className="nav-item"><NavLink to="/about" onClick={handelmobClose} className="nav-link">About</NavLink></li>
+                            <li className="nav-item"><NavLink to="/projects"onClick={handelmobClose} className="nav-link">Projects</NavLink></li>
+                            <li className="nav-item"><NavLink to="/contact" onClick={handelmobClose} className="nav-link">Contact</NavLink></li>
                         </ul>
                     </div>
                 </div>

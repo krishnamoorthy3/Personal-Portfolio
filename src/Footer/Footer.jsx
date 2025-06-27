@@ -13,13 +13,13 @@ const Footer = () => {
                         <div className="col-md-4">
                             <div className="footer-wrap">
                                 <h5 className="footer-t">Looking for a Developer?</h5>
-                                <Link to="/Contact" className="footer-l">krishnamoorthym3009@gmail.com <MdOutlineArrowOutward/></Link>
+                                <Link to="/contact" className="footer-l">krishnamoorthym3009@gmail.com <MdOutlineArrowOutward/></Link>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="footer-wrap">
                                 <h5 className="footer-t">See My Works</h5>
-                                <Link to="/Projects" className="footer-l">Projects <MdOutlineArrowOutward/></Link>
+                                <Link to="/projects" className="footer-l">Projects <MdOutlineArrowOutward/></Link>
                             </div>
                         </div>
                     </div>

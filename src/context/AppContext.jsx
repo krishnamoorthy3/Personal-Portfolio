@@ -10,10 +10,22 @@ import soccer from "../assets/images/works/soccer/soccer.png"
 import soccerthumb from "../assets/images/works/soccer/soccerp.png"
 import milk from "../assets/images/works/milk/milk-full.png"
 import milkthumb from "../assets/images/works/milk/milk.png"
+import dashboard from "../assets/images/works/dashboard/dashboard-full.png"
+import dashboardthumb from "../assets/images/works/dashboard/dashboard.png"
 export const AppContext=createContext()
 export const AppContextProvider = ({children}) => {
 
     const projectDetail=[
+        {
+            id:6,
+            imgsrc:dashboard,
+            prothumb:dashboardthumb,
+            giturl:"https://github.com/krishnamoorthy3/React-Ecom-Dashboard-Frontend-",
+            discription:"The Admin & Dealer Dashboard is a web-based platform that provides both administrators and dealers with dedicated tools to manage product data efficiently. Designed for businesses that collaborate with third-party dealers or vendors, the system allows admin users to manage dealers and dealers to independently upload, edit, and manage their own products. The dashboard supports role-based access, enabling different user capabilities such as user management (for admins) and product submission (for dealers).",
+            title:"Admin & Dealer Dashboard",
+            usedtech:["React","css","JavaScript","bootstrap","Contextapi","Axios"],
+            liveurl:"https://react-ecom-dashboard-frontend.vercel.app/",
+        },
         {
             id:1,
             imgsrc:itcimg,
@@ -22,7 +34,7 @@ export const AppContextProvider = ({children}) => {
             discription:"IT Consultancy  is a responsive and visually appealing website designed to showcase IT consulting services. Built using HTML, CSS, JavaScript, and the Bootstrap framework, the site offers a clean layout, smooth navigation, and mobile-first design.",
             title:"IT Consultancy",
             usedtech:["html","css","JavaScript","bootstrap"],
-            liveurl:" https://it-consultancy-km.netlify.app/",
+            liveurl:"https://it-consultancy-km.netlify.app/",
         },
         {
             id:2,
