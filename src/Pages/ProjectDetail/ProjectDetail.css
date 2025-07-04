@@ -13,7 +13,7 @@
 .pro-d-inner-wrap{
     width: 65%;
     height: 80%;
-    background: #efefef;
+    background:#ffffff;
     border-radius: 15px;
     padding: 30px 0;
 }
@@ -116,6 +116,10 @@
   }
   .pro-d-pop-fmob{
     margin: 15px 0 23px;
+            flex-direction: column;
+  }
+  .pro-d-title{
+    font-size: 29px;
   }
 }
 @media only screen and (min-width:768px) and (max-width:1024px){
